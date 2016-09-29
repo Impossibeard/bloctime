@@ -1,1 +1,1 @@
-var app = angular.module("blocTime", ["ui.router", "firebase"]);
+var app = angular.module("blocTime",[]);
