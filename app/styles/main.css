@@ -1,15 +1,13 @@
 html {
- height: 100%; /* makes sure our HTML takes up 100% of the browser window */
+    height: 100%;
     font-size: 100%;
  }
  
- body {
-    font-family: 'Lalezar', cursive;
-    color: white;             
-    min-height: 100%;         /* says the height of the body must be, at minimum, 100% of the window */
+ body {       
+    min-height: 100%;
  }
 
-div.button {
+.button {
     font-family: 'Lalezar', cursive;
     background-color: aquamarine;
     position: absolute;
@@ -20,8 +18,7 @@ div.button {
     line-height: 60px;
     width: 200px;
     text-align: center;
-    font-size: 4rem;
-    font-weight: 800;
+    font-size: 3rem;
     letter-spacing: 0.5rem;
     color: white;
     border-radius: 5px;
