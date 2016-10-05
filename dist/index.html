@@ -3,47 +3,39 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>BlocTime Project</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="/app/styles/main.css">
+    <link rel="stylesheet" type="text/css" href="/styles/main.css">
     <link href="https://fonts.googleapis.com/css?family=Lalezar" rel="stylesheet">
 </head>
 <body>
-    <div class="button">
-        <span>Start</span>
-    </div>
-    <div>
-    <span>
-        {{"Hello," + " World!"}}
-    </span>
-    </div>
+    <ui-view></ui-view>
+
+    <!-- Angular -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+
+    <!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/3.4.1/firebase.js"></script>
+
+    <!-- AngularFire -->
+    <script src="https://cdn.firebase.com/libs/angularfire/2.0.1/angularfire.min.js"></script>
     
-<!-- Angular -->
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+    <!--Angular UI Router-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
 
-<!-- Firebase -->
-<script src="https://www.gstatic.com/firebasejs/3.4.1/firebase.js"></script>
+    <!--
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyCW-pkcHVGRrTs6iYEnkL3IWVmdMnKP-6g",
+        authDomain: "bloctime-f4f10.firebaseapp.com",
+        databaseURL: "https://bloctime-f4f10.firebaseio.com",
+        storageBucket: "bloctime-f4f10.appspot.com",
+        messagingSenderId: "640645611560"
+      };
+      firebase.initializeApp(config);
+    </script>
+    -->
+    <script type="text/javascript" src="/scripts/app.js"></script>
 
-<!-- AngularFire -->
-<script src="https://cdn.firebase.com/libs/angularfire/2.0.1/angularfire.min.js"></script>
-    
-<!--Angular UI Router-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
 
-        
-<script type="text/javascript" src="/app/scripts/app.js"></script>
-
-<!--
-<script>
-  // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyCW-pkcHVGRrTs6iYEnkL3IWVmdMnKP-6g",
-    authDomain: "bloctime-f4f10.firebaseapp.com",
-    databaseURL: "https://bloctime-f4f10.firebaseio.com",
-    storageBucket: "bloctime-f4f10.appspot.com",
-    messagingSenderId: "640645611560"
-  };
-  firebase.initializeApp(config);
-</script>
--->
 </body>
 </html>

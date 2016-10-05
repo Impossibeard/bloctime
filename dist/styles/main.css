@@ -1,3 +1,8 @@
+* {
+margin: 0;
+padding: 0;
+}
+
 html {
     height: 100%;
     font-size: 100%;
@@ -7,19 +12,28 @@ html {
     min-height: 100%;
  }
 
-.button {
+.focus {
     font-family: 'Lalezar', cursive;
-    background-color: aquamarine;
     position: absolute;
     top: 40%;
     left: 50%;
     transform: translate(-50%);
+    text-align: center;
+}
+
+.focus p {
+    font-size: 4rem;
+    height: 70px;
+    padding-bottom: 10px;
+}
+
+.button {
+    background-color: aquamarine;
+    font-size: 3rem;
     height: 50px;
     line-height: 60px;
-    width: 200px;
-    text-align: center;
-    font-size: 3rem;
     letter-spacing: 0.5rem;
     color: white;
+    width: 200px;
     border-radius: 5px;
 }
