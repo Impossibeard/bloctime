@@ -1,5 +1,5 @@
 <div class="focus" ng-controller="TimerCtrl">
-    <p>{{timer.clock}}</p>
+    <p>{{timer.clock | timecode}}</p>
     <div class="button" ng-click="pomoCountdown()">
         <span>Start</span>
     </div>

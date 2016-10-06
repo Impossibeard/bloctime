@@ -1,6 +1,6 @@
 (function() {
     function TimerCtrl(){
-        this.clock = "25:00";
+        this.clock = 1500;
     }
     
     angular
