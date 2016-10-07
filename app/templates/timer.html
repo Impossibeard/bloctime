@@ -1,6 +1,7 @@
 <div class="focus" ng-controller="TimerCtrl">
-    <p>{{timer.clock | timecode}}</p>
-    <div class="button" ng-click="pomoCountdown()">
-        <span>Start</span>
+    <!--<p>{{timer.timelimit | timecode}}</p>-->
+    <clock></clock>
+    <div class="button">
+        <span ng-click="pomoCountdown()">{{ buttonText }}</span>
     </div>
 </div>

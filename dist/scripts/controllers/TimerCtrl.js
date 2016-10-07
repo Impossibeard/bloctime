@@ -1,6 +1,7 @@
 (function() {
-    function TimerCtrl(){
-        this.clock = 1500;
+    function TimerCtrl($scope){
+        this.timelimit = 1500;
+        $scope.buttonText = "Start"
     }
     
     angular
